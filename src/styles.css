@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+h1{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 2rem;
+    text-align: center
+    text-transorm: uppercase;
+    font-weight: 100;
+    letter-spacing: 3px;
+    background: url(https://images.unsplash.com/photo-1668767483967-cc2325edafbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80) no-repeat center/cover;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(20, 124, 214);
+    padding: 5px 0 5px 0;
+
+}
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: serif;
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    transition: .2s all;
+}
+
+nav a: :hover{
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    transition: .2s all;
+}
+
+nav image{
+    width: 80px;
+}
+
+main{
+    display: flex;
+
+}
+
+footer{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify content: center;
+
+}
